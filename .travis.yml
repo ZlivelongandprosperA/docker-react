@@ -10,3 +10,6 @@ before_install:
 
 script:
   - docker run malagamalaga/docker-react npm run test -- --coverage
+
+env:
+  - YARN_GPG=no
